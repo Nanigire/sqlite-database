@@ -50,8 +50,11 @@ public class LoginActivity extends AppCompatActivity {
 
                 // Calling login method.
                 LoginFunction();
-                Intent intent = new Intent(LoginActivity.this, NevigationDrawerActivity.class);
+//                Intent intent = new Intent(LoginActivity.this, NevigationDrawerActivity.class);
+//                startActivity(intent);
+                Intent intent = new Intent(LoginActivity.this, LocationManagerActivity.class);
                 startActivity(intent);
+
             }
         });
 

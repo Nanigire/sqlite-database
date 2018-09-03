@@ -25,7 +25,8 @@
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.RegisterActivity" />
         <activity android:name=".activity.AboutUsActivity" />
-        <activity android:name=".activity.PrivacyPolicyActivity"></activity>
+        <activity android:name=".activity.PrivacyPolicyActivity" />
+        <activity android:name=".activity.LocationManagerActivity"></activity>
     </application>
 
 </manifest>
